@@ -451,7 +451,7 @@ class Ui_MainWindow(object):
 	
 if __name__ == "__main__":
 	import sqlite3
-	conn = sqlite3.connect('cricketgame.db')    
+	conn = sqlite3.connect('fantasy.db')    
 	import sys
 	app = QtWidgets.QApplication(sys.argv)
 	MainWindow = QtWidgets.QMainWindow()
